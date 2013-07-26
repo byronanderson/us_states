@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Byron Anderson", "Jim Gilliam"]
-  s.date = "2013-01-18"
+  s.date = "2013-07-26"
   s.description = "As simple as that"
   s.email = "byron@nationbuilder.com"
   s.extra_rdoc_files = [
@@ -32,11 +32,11 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/byronanderson/us_states"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "2.0.3"
   s.summary = "A module containing a list of all of the United States and territories"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 3
+    s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, [">= 0"])
