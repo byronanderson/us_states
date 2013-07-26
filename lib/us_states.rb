@@ -82,9 +82,5 @@ module UsStates
 
   private
 
-  STATE_TO_CODE = CODES.inject({}) do |hash, code_state|
-    code, state = code_state
-    hash[state.downcase] = code
-    hash
-  end
+  STATE_TO_CODE = Hash[CODES.values.map(&:downcase).zip(CODES.keys)]
 end
