@@ -1,4 +1,4 @@
-module State
+module UsStates
   class InvalidState < RuntimeError; end
 
   CODES = {
