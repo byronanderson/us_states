@@ -1,4 +1,4 @@
-require 'us_states'
+require 'spec_helper'
 
 describe UsStates do
   describe ".normalize" do
