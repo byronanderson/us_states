@@ -84,3 +84,5 @@ module UsStates
 
   STATE_TO_CODE = Hash[CODES.values.map(&:downcase).zip(CODES.keys)]
 end
+
+State = UsStates
